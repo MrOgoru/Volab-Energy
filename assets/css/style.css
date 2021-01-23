@@ -133,7 +133,6 @@ small {
   position: relative;
 }
 .slide1 {
-  background-color: pink;
   height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
@@ -186,6 +185,7 @@ background: rgba(255, 255, 255, 0.71);
   padding-top: 12px;
   padding-bottom: 12px;
   border-radius: 3px;
+  outline: none;
 
 }
 
@@ -570,6 +570,9 @@ grid-template-columns:  1fr 2fr;
 
 .jum {
   background-color: #ccc;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 327px;
   text-align: center;
   display: flex;
