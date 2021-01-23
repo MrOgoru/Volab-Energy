@@ -489,7 +489,7 @@ text-align: center;
 
 /*--contact---*/
 .contact-us {
-  padding: 100px 30px;
+  padding: 100px 0px;
 }
 
 .contact-us h2 {
@@ -523,12 +523,61 @@ text-align: center;
 
 .flez {
 display: grid;
-grid-template-columns:  1fr 2fr;
+grid-template-columns:  1fr 1fr;
+justify-items: center;
+gap: 50px;
 }
 
-.flez .form-c {
-  justify-self: end;
-  margin-top: 0;
+#form-c {
+  width: 100%;
+  max-width: 740px;
+}
+
+#form-c h2 {
+  margin-bottom: 10px;;
+}
+
+#form-c  p {
+  font-size: 14px;
+  color: #9999;
+}
+
+#form-c form input {
+  width: 100%;
+  max-width: 314px;
+  padding: 0 10px;
+  height: 45px;
+  margin-top: 20px;
+  border: 1px solid #1f23326e;
+  border-radius: 4px;
+  background: none;
+}
+
+#form-c form input[placeholder]{
+  font-weight: 600;
+  font-family: 'Poppins';
+}
+
+.form-c #Subject {
+  height: 202px;;
+}
+
+.form-c form span {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.form-c form button {
+  margin-top: 20px;
+  background-color: #088308;
+  color: #fff;
+  width: 340px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 
@@ -538,7 +587,7 @@ grid-template-columns:  1fr 2fr;
 
 @media (max-width: 1000px) {
     .grid {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1.5fr;
     }
 
     .service p {
@@ -754,12 +803,25 @@ margin-bottom: 10px;;
     padding: 50px 30px;
   }
 
+  .flez {
+    grid-template-columns: 1fr;
+  }
+
+  #form-c {
+    text-align: center;
+  }
+
+.form-c .one {
+  justify-content: center;
+}
+
   .footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
+
 
 
 }
