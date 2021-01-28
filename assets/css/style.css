@@ -34,6 +34,7 @@ a:hover {
 
 p {
   margin: 10px 0;
+  color: #333;
 }
 
 h1,h2,h3 {
@@ -464,7 +465,9 @@ height: 43px
  font-size: 1.5rem;
  margin-bottom: 20px;;
 }
-
+.footer p {
+  color:  #d8d8d8;
+}
 .footer li {
   margin: 10px 0;
 }
@@ -581,6 +584,123 @@ gap: 50px;
 }
 
 
+/*-- SERVICES --*/
+.service_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.service_grid1 {
+  display: grid;
+  align-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.grid1 {
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+  width: 100%;
+  max-width: 420px;
+  height: 329px;
+
+background: #F6F6F6;
+border-radius: 4px;
+border-bottom: 3px solid #088308;
+box-sizing: border-box;
+}
+
+.grid1 img {
+  width: 86px;
+  margin: 50px 31px 50px;
+}
+
+.grid1 h3 {
+  margin-left: 31px;
+}
+
+.grid1 p {
+  margin-left: 31px;
+  font-weight: 400;
+}
+
+.grid1 p {
+  font-size: 14px;;
+}
+
+.top {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.top1 {
+  margin-top: 61px;
+}
+
+.top1 h2 {
+  margin-bottom: 25px;
+  color: #088E3B;
+  font-size: 18px;
+}
+
+.choose_us {
+  background: #f2f4f2;
+}
+
+.choose {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.choose img {
+  max-width: 511px;
+}
+
+.choss {
+  max-width: 501px;;
+}
+.choss h2 {
+  margin-bottom: 9px;
+  color: #088E3B;
+  font-size: 18px;
+  
+  font-weight: normal;
+}
+
+.choss h3 {
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+.choss p {
+  margin-left: 0;
+  line-height: 24px;
+}
+
+.cta1 {
+  color: #fafafa;
+  width: 100%;
+}
+
+.cta11 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 41px 10px;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
 
 
 /*-- media queries --*/
@@ -612,6 +732,11 @@ gap: 50px;
     .fil {
       flex-direction: column;
       gap: 30px;
+    }
+
+    .choose {
+      flex-direction: column;
+      justify-content: center;
     }
 }
 
@@ -823,6 +948,27 @@ margin-bottom: 10px;;
   }
 
 
+  .service_grid {
+    grid-template-columns: 1fr;
+    max-width: 420px;
+    align-items: center;
+   justify-items: center;
+   justify-content: center;
+   align-self: center;
+  }
+
+  .service_grid1 {
+    width: 100%;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .grid1 {
+    padding: 5px;
+  }
+
+
 
 }
  
@@ -919,6 +1065,13 @@ margin-top: 80px;
 
 div.categories {
   margin: 10px 0;
+}
+
+
+
+.cta11 {
+  flex-direction: column;
+  gap: 20px;;
 }
 }
 
