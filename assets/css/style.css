@@ -736,6 +736,7 @@ box-sizing: border-box;
     .choose {
       flex-direction: column;
       justify-content: center;
+      gap: 20px;
     }
 
     .product-flex {
@@ -1003,10 +1004,24 @@ margin-bottom: 25px;
     grid-template-columns: 1fr;
   }
 
+  .flez1 h2, #form-c h2, {
+    font-size: 20px;
+  }
+
+  .flez1 p {
+    font-size: 14px;;
+  }
+
+  .fa-map-marker-alt, .fa-mobile-alt, .fa-envelope {
+    font-size: 42px;
+  }
+
   #form-c {
     text-align: center;
   }
-
+#form-c p {
+  font-size: 12px;
+}
 .form-c .one {
   justify-content: center;
 }
@@ -1109,8 +1124,9 @@ margin-bottom: 25px;
 margin-top: 80px;
 }
 .support h2 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 #support {
@@ -1121,6 +1137,9 @@ margin-top: 80px;
 
 .support a {
   padding-right: 82px;
+  font-size: 14px;
+  padding-top: 11px;
+padding-bottom: 11px;
 }
 
 .support-form form {
@@ -1155,6 +1174,49 @@ div.categories {
   flex-direction: column;
   gap: 20px;;
 }
+
+label {
+  font-size: 14px;
+  color: #333;
+}
+
+.support-form form input {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  height: 40px;
+}
+
+
+
+.textarea {
+  width: 240px;
+}
+
+.textarea #message {
+  font-size: 12px;
+  width: 240px;
+  padding-left: 0;
+  color: #222;
+}
+
+.support-form form button {
+  height: 42px;
+  font-size: 14px;
+}
+
+.ii {
+  font-size: 14px;
+}
+
+.detailss p {
+  font-size: 14px;
+}
+
+.edge h3 {
+  font-size: 28px;;
+}
+
+
 }
 
 
